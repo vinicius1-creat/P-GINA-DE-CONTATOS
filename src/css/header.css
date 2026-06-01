@@ -19,5 +19,24 @@ header {
             width: 150px;
             height: auto;
         }
+
+        #nav_list {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+
+            .nav-item {
+                .nav-link {
+                    text-decoration: none;
+                    font-size: 1.15rem;
+                    color: #020617;
+                    font-weight: 400;
+
+                    &.active {
+                        border-bottom: 3px solid #4f46e5;
+                    }
+                }
+            }
+        }
     }
 }
