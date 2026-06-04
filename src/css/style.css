@@ -7,26 +7,25 @@
 
 body {
     background: radial-gradient(circle, var(--primary-color-1), var(--primary-color-2));
+}
 
-    .page-title {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 84px 0px;
+#page-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 84px 0px;
+}
 
-        h2 {
-            font-size: 1rem;
-            font-weight: 600;
-            line-height: 1rem;
-            color: var(--secondary-color);
-        }
+#page-title h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    color: var(--secondary-color);
+}
 
-        h1 {
-            font-size: 3rem;
-            font-weight: 600;
-            line-height: 3rem;
-            color: #ffffff;
-        }
-
-    }
+#page-title h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #ffffff;
 }
