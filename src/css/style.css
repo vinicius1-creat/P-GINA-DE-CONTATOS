@@ -49,6 +49,39 @@ p {
     justify-content: center;
     gap: 32px;
 
-
     background-image: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+#contacts_container {
+    width: 50%;
+}
+
+#contacts_container h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#contacts_container p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #010002;
+    width: 80%;
+}
+
+#contacts_container h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #010002;
+    margin-top: 16px;
+}
+
+#cards_container {
+    display: flex;
+}
+
+#contact_form_container {
+    width: 50%;
+}
+
